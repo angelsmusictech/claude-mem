@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "model": "opusplan",
+  "env": {
+    "ANTHROPIC_BASE_URL": "__BASE_URL__",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "__SMART_MODEL__",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "__MAIN_MODEL__",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "__CHEAP_MODEL__",
+    "CLAUDE_CODE_SUBAGENT_MODEL": "__CHEAP_MODEL__",
+    "MAX_THINKING_TOKENS": "8000"
+  }
+}
